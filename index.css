@@ -1,0 +1,70 @@
+html {
+  overflow-y: scroll;
+}
+body {
+  background: whitesmoke;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 75%;
+  color: #585858;
+  padding: 22px 10px;
+  padding-bottom: 55px;
+}
+
+br {
+  display: block;
+  line-height: 1.6em;
+}
+
+table {
+  border-style: double;
+  border-color: black;
+  background-image: linear-gradient(135deg, white, #ddd);
+}
+
+h1 {
+  font-family: "Amarante", Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 3.6em;
+  line-height: 1.7em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+#main {
+  margin: 0 auto;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+#main thead {
+  cursor: pointer;
+  background: grey;
+  color: black;
+}
+#main thead tr th {
+  font-weight: bold;
+  border-style: solid;
+  padding: 12px 30px;
+  padding-left: 42px;
+}
+#main thead tr th span {
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+#main tbody tr {
+  color: #555;
+}
+#main tbody tr td {
+  text-align: center;
+  padding: 15px 10px;
+  border-style: solid;
+}
+#main tbody tr td :nth-child(odd) {
+  text-align: center;
+  padding: 15px 10px;
+  border-style: groove;
+}
